@@ -1,0 +1,271 @@
+body{
+    color:white;
+    background: -webkit-linear-gradient(#0f0f0f, #464646);
+    -webkit-background-clip: text;
+    font-size: 17px;
+    
+}
+.navbar{
+    background-color: #262626;
+    color:white;
+    background: -webkit-linear-gradient(#c038ff, #fefefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.learn{
+    background-color:#1f1e29;
+    color:rgb(104, 103, 103);
+}
+.learn h6{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h6:hover{
+    color:white;
+}
+.learn h4:hover{
+    color:white;
+}
+.container h1{
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 70px;
+}
+.de1 h2{
+    font-size: 40px;
+    font-family: "Poppins";
+}
+.de2 h2{
+    font-size: 40px;
+    font-family: "Poppins";
+}
+
+.upper p{
+    padding-bottom: 40px;
+}
+.upper p{   
+    text-align: center;
+    font-family: "Poppins";
+    margin-left:100px;
+    margin-right: 100px;
+    color:rgb(104, 103, 103);
+    transition: 1s;
+}
+.upper p:hover{
+    color:rgb(177, 176, 176);
+    
+}
+
+.container .main{
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.container>h1{
+    background: -webkit-linear-gradient(#c038ff, #fefefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.de1>h2{
+    background: -webkit-linear-gradient(#c3ff5a, #fefefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.de2>h2{
+    background: -webkit-linear-gradient(#c3ff5a, #fefefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container .main .one{
+    text-align: center;
+    font-family: 'poppins';
+    
+}
+.container .main .one h3{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.container .main .one h4{
+    background: -webkit-linear-gradient(#39d7ff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container .main .one h5{
+    background: -webkit-linear-gradient(#92ff68, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.container .main .two h3{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.container .main .two h4{
+    background: -webkit-linear-gradient(#39d7ff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.container .main .two h5{
+    background: -webkit-linear-gradient(#92ff68, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.container .main .two{
+    text-align: center;
+    font-family: 'poppins';
+}
+.details{
+    display: flex;
+    margin:100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.de1{
+    margin-right: 190px;
+    width: 500px;
+}
+.de1 h2{
+    margin-left:20px;
+}
+.de2 {
+    margin-right: 00px;
+    width: 500px;
+}
+.de1 p:hover{
+    color:rgb(177, 176, 176);
+}
+
+.de2 p:hover{
+    color:rgb(177, 176, 176);
+}
+.de2 p{
+    margin-top:50px;
+    color:rgb(104, 103, 103);
+    transition: 1s;
+    
+}
+
+.de1 p{
+    margin-top:50px;
+    color:rgb(104, 103, 103);
+    transition: 1s;
+}
+.de1 p:hover{
+    color:rgb(177, 176, 176);
+}
+
+.container .main .one .fa-linkedin{
+    color:white;
+    background-color: black;
+}
+.hidden{
+    opacity: 0;
+    color:aliceblue;
+    transition: all 5s;
+}
+.show{
+    opacity: 1;
+}
+.foot{
+    margin-top: 100px;
+}
+.foot p{
+    font-size: 15px;
+}
+.foot a{
+    text-decoration: none;
+    color:grey;
+    text-align: center;
+    transition: 1s;
+}
+.foot a:hover{
+    color:white;
+}
+.foot span{
+    margin:0px 40.4% 0px 20px;
+    font-size: 13px;
+}
+.de1 ol{
+    color:rgb(104, 103, 103);
+    transition: 2s;
+}
+.de1 ol:hover{
+    color:white;
+}
+@media (max-width: 668px){
+    .container p{
+        width: 250px;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+    }
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .details .de1 {
+       
+        margin: auto;
+        width: 200px;
+        font-size: 15px;
+    }
+    .de1 h2{
+        margin-left: 10px;
+    }
+    .de1 p{
+        width: 250px;
+    }
+    .de2 p{
+        width: 250px;
+    }
+    .details .de2{
+        width: 200px;
+        font-size: 15px;
+    }
+    footer{
+        display: none;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+   
+    .main .one h3 b{
+        font-size: 15px;
+    }
+    .main .two h3 b{
+        font-size: 15px;
+    }
+    .main .one h5{
+        font-size: 10px;
+    }
+    .main .two h5{
+        font-size: 10px;
+    }
+    
+    .de1 h2{
+        font-size: 24px;
+    }
+    .de1 p ol li{
+        font-size: 20px;
+        width: 300px;
+    }
+    .de2 h2{
+        font-size: 24px;
+    }
+}

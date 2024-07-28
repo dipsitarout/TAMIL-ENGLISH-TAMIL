@@ -1,0 +1,149 @@
+.container{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.container .sub{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.d-flex{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    width: 400px;
+}
+.nav-btn button{
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: 1s;
+}
+.nav-btn button:hover{
+    background-color: rgb(200, 192, 192);
+    color:black;
+}
+.btn{
+    border-radius: 10px;
+    width: 100px;
+}
+.dic{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    gap:3%;
+}
+.meaning{
+    border-radius: 10px;
+    background-color: red;
+    width: 30%;
+    height: 400px;
+}
+.hidden{
+    opacity: 0;
+    color:aliceblue;
+    transition: all 3s;
+}
+.show{
+    opacity: 1;
+}
+.options{
+    margin-left: 170px;
+    display: flex;
+    gap:50px;
+    cursor: pointer;
+}
+.nos{
+    display: none;
+    background-color: green;
+}
+#accommodation-select{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+#TO-DO{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+#TAGS{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+.meaning1{
+    background-color: red;
+
+}
+.meaning2{
+    background-color: gray;
+
+}
+.meaning3{
+    background-color: pink;
+}
+.foot{
+    margin-top: 100px;
+}
+.foot p{
+    font-size: 15px;
+}
+.foot a{
+    text-decoration: none;
+    color:grey;
+    text-align: center;
+    transition: 1s;
+}
+.foot a:hover{
+    color:white;
+}
+.foot span{
+    margin:0px 35.4% 0px 20px;
+    font-size: 13px;
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color:white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-attachment: rgba(0, 0, 0, 0.94);
+    position: absolute;
+    z-index: 999;
+}
+.loader{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 6px solid black;
+    border-top: 6px solid white;
+    animation: rotate 1s infinite linear;
+}
+.loading>p{
+    font-size: 2rem;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}

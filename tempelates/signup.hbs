@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body>
+   <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>	
+<div class="container" id="container">
+	<div class="form-container sign-ip-container">
+		<form action="/signup" method="post">
+			<h1>Sign Up</h1>
+			<br>
+			<input type="text" placeholder="Name" name="name"/>
+			
+			<input type="password" placeholder="password" name="password" />
+			<button>Sign Up</button>
+            <br>
+            <span><h4>use your Social for registration</h4></span>
+            <div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		</form>
+	</div>
+	
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+                <h1>Register !</h1>
+				<p>Enter your personal details to register</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Welcome Back!</h1>
+				<p>Start Your Learning Journey Again</p>
+				<a href="/"><button class="ghost" id="signIn">Sign In</button></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+    <div class="foot">
+       <p> <span> </span><a href="#">Copyright © 2024</a> | <a href="#">Terms </a> | <a href="#">Privacy Policy</a> | <a href="#">Join us</a></p>
+    </div>
+</footer>  
+<script>
+    const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script>
+<script src="https://kit.fontawesome.com/a997736e89.js" crossorigin="anonymous"></script>
+</body>
+</html>

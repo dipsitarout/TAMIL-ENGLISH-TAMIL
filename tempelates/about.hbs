@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+    <style>
+      .main{
+        font-size: 30px;
+      }
+      .nav-link{
+        font-size: 20px;
+        font-family: 'Poppins';
+      }
+    </style>
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand main" href="#" style="font-family: 'POPPINS';">LINGO VIBE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/userm">USER MANUAL</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+        <br><br>
+      <br>
+      <div class="container hidden upper">
+        <h1>About</h1>
+        <p>Welcome to LINGO VIBE!!!<br>
+          We are a team of dedicated and talented linguists committed to providing top-notch translation services to individuals and businesses around the globe. Our goal is to connect cultures and facilitate communication through precise, timely, and culturally aware translations.Our mission is to eliminate language barriers and facilitate clear, effective communication across cultures. <br>
+           At LINGO VIBE, we  envision a world where language differences do not impede communication. We strive to be the leading translation service provider, enabling individuals and businesses to connect, collaborate, and succeed in a global market. 
+           Our journey began with a simple idea: to make the world smaller and more connected through language. Over the years, we have grown from a small team of enthusiastic translators to a full-fledged translation agency serving clients from all corners of the world. Our growth is a testament to our unwavering commitment to quality, customer satisfaction, and continuous improvement.
+           <br>
+           </p>
+      </div>
+      <br><br>
+      
+      <div class="details hidden">
+          <div class="de1">
+            <h2>Unique Features</h2>
+            <p> 
+              <ol>
+                <li>Real-Time Speech Translation-Provide instant translation of spoken words in real-time during conversations, meetings, or live events.</li>
+                <li>Multimodal Translation-Support translation across multiple input types including speech, text, images (OCR), and video.</li>
+                <li>Cultural Context Integration-Offer cultural context explanations for certain phrases or idioms to help users understand nuances better.</li>
+                
+              </ol>
+              
+            </p>
+          </div>
+          <div class="de2">
+            <h2>Resources</h2>
+            <p>Welcome to our Resources page! 
+              
+              Here, you'll find a wealth of information and tools designed to help you make the most of our speech translation services.
+              
+            Whether you're a first-time user or a seasoned professional, our resources are here to support you in navigating the world of speech translation and language services.
+            We also have a user manual from which we can refer to certain components for your learning process.
+            At LINGO VIBE, we provide a comprehensive range of resources designed to support and enrich your experience. Whether you're looking for information, tools, or support, we’ve got you covered. 
+
+            </p>
+          </div>
+        
+      </div>
+      <div class="container hidden">
+        <h1>Meet Our Team</h1>
+        <br>
+        <div class="main">
+          <div class="one">
+            <h3><b>Shreyash Gautam</b></h3>
+        
+          <h5>23BAI1587</h5>
+        </div>
+        <div class="two">
+            <h3><b>Dipsita Rout</b></h3>
+     
+          <h5>23BAI1234</h5>
+        </div>
+      </div>
+      <div class="main hidden">
+        <div class="one">
+          <h3><b>Meghna Mandawra</b></h3>
+          <h5>23BAI1196</h5>
+        </div>
+        <div class="two">
+          <h3><b>Saumya Agarwal</b></h3>
+          <h5>23BAI1588</h5>
+        </div>
+      </div>
+       </div>
+      <br><br><br>
+      <footer>
+        <div class="foot">
+           <p> <span> </span><a href="#">Copyright © 2024</a> | <a href="#">Terms </a> | <a href="#">Privacy Policy</a> | <a href="#">Join us</a></p>
+        </div>
+    </footer>  
+    <script src="https://kit.fontawesome.com/a997736e89.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      const observer=new IntersectionObserver((entries)=>{
+        entries.forEach((entry)=>{
+          console.log(entry)
+          if(entry.isIntersecting){
+            entry.target.classList.add('show');
+          }
+          else{
+            entry.target.classList.remove('show');
+          }
+        });
+      });
+      const hiddenElements=document.querySelectorAll(".hidden");
+      hiddenElements.forEach((el)=>
+      observer.observe(el)
+      );
+    </script>
+  </body>
+</html>
